@@ -1,0 +1,27 @@
+.Sidebar {
+    max-width: 100px;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: fixed;
+}
+
+.Sidebar a {
+    width: 64px;
+    height: 74px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.Sidebar a:visited {
+    color: black;
+}
+
+.Sidebar a:hover {
+    background-color: #ccc;
+}

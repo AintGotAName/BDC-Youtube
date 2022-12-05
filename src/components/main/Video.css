@@ -1,0 +1,12 @@
+.Video {
+    width: 22%;
+    height: auto;
+    margin: 8px;
+}
+.Video img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.Video:hover {
+    cursor: pointer;
+}

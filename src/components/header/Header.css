@@ -1,0 +1,14 @@
+.Header {
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    z-index: 1;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.Header svg {
+    vertical-align: middle;
+}
